@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class FormCuy extends StatefulWidget {
@@ -43,59 +42,6 @@ class _FormCuyState extends State<FormCuy> {
           const Text('Connect To Facebook'),
           const SizedBox(
             width: 8,
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Radio(
-                value: "Male",
-                groupValue: sex,
-                onChanged: (String? val) {
-                  setState(() {
-                    sex = val;
-                  });
-                },
-              ),
-              const Text('Male'),
-            ],
-          ),
-          const SizedBox(
-            width: 16,
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Radio(
-                value: "Female",
-                groupValue: sex,
-                onChanged: (String? val) {
-                  setState(() {
-                    sex = val;
-                  });
-                },
-              ),
-              const Text('Female'),
-            ],
-          ),
-          Row(
-            children: [
-              Checkbox(value: isChecked,
-                activeColor: Colors.green,
-                onChanged: (bool? val) {
-                  setState(() {
-                    isChecked = val!;
-                  });
-                },
-              ),
-              const SizedBox(
-                width: 4,
-              ),
-              const Text('I agree to the terms and conditions',
-                style: TextStyle(
-                  decoration: TextDecoration.underline,
-                ),
-              ),
-            ],
           ),
         ],
       ),

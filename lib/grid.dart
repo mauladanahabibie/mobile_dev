@@ -1,8 +1,7 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-class danzzgrid extends StatelessWidget {
-  const danzzgrid({super.key});
+class GridCuy extends StatelessWidget {
+  const GridCuy({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +29,7 @@ class danzzgrid extends StatelessWidget {
                           image: DecorationImage(
                             fit: BoxFit.cover,
                             alignment: Alignment.topCenter,
-                            image: AssetImage('assets/ellacuy.png'),
+                            image: AssetImage('assets/windah basudara.jfif'),
                           ),
                           borderRadius: BorderRadius.circular(20),
                           boxShadow: [
